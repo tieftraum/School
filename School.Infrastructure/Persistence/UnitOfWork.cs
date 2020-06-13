@@ -24,7 +24,6 @@ namespace School.Infrastructure.Persistence
         {
             return _context.SaveChanges();
         }
-
         public void Dispose()
         {
             _context.Dispose();
